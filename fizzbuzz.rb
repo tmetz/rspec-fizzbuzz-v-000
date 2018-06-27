@@ -2,10 +2,12 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
+  return_val = ""
   if num % 3 == 0
-    print "Fizz"
+    return_val += "Fizz"
   end
   if num % 5 == 0
-    print "Buzz"
+    return_val += "Buzz"
   end
+  return return_val
 end
