@@ -9,5 +9,8 @@ def fizzbuzz(num)
   if num % 5 == 0
     return_val += "Buzz"
   end
+  if return_val == ""
+    return_val = nil
+  end
   return return_val
 end
